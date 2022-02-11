@@ -1,0 +1,22 @@
+{
+	"name": "MERN",
+	"version": "1.0.0",
+	"description": "MERN Project",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "Chen Lay",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.17.2",
+		"express-async-handler": "^1.2.0",
+		"mongoose": "^6.2.1"
+	},
+	"devDependencies": {
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.15"
+	}
+}
