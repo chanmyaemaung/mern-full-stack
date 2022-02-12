@@ -1,7 +1,12 @@
 require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
+const colors = require('colors')
 const port = process.env.PORT || 5000
+const connectDB = require('./config/db')
+
+// Database connection
+connectDB()
 
 // All my custom middleware
 const { errorHandler } = require('./middlewares/errorMiddleware')
